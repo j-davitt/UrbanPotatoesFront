@@ -1,0 +1,64 @@
+
+
+.cards {
+  display: flex;
+  margin-top: 200px;
+  border-radius: 25px;
+  width: 80%;
+}
+.comments {
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: white solid;
+  max-height: 70%;
+  background-color: rgba(0, 0, 0, 0.514);
+  color: rgb(252, 252, 252);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.commentform {
+  max-width: 80%;
+}
+
+.comments form {
+  width: 70%;
+  /* border: solid white; */
+  display: flex;
+  justify-content: center;
+  /* max-width: max-content; */
+}
+
+.comments form textarea {
+  width: 70%;
+  border: solid white;
+  border-radius: 10px;
+  /* max-width: max-content; */
+}
+
+.comment-right-part {
+  width: 700px;
+
+}
+
+.comments form button {
+  color: rgb(255, 0, 0);
+  border-radius: 10px;
+}
+
+.comments-container {
+  width: 70%;
+}
+
+.comment-image-container img {
+  border-radius: 25px;
+  border: .3rem white solid;
+}
+
+.comment {
+  display: flex;
+  margin: 20px;
+  border: white solid;
+  width:auto;
+  border-radius: 25px;
+}

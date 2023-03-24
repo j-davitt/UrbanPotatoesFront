@@ -1,0 +1,24 @@
+.footerId {
+        display: flex;
+        margin: auto;
+        margin-bottom: 0px;
+        font-size: 6rem;
+}
+
+.navbarfooter {
+        bottom: 0;
+        width: 100%;
+        /* position: fixed; */
+        height: 3rem;
+        background-color: black;
+        -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+        -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+        
+
+}
+
+.footer-content {
+        color: aliceblue;
+        margin-right: 800px;
+}

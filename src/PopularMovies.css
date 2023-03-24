@@ -1,0 +1,26 @@
+
+
+.carousel {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  /* padding-top: 100px; */
+}
+
+.carousel-caption {
+  z-index: 2;
+  font-size: 2rem;
+  opacity: .5;
+  max-height: 200px;
+  margin-top: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-pictures {
+  border-radius: 40px;
+  size: 40%;
+  opacity: .9;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}

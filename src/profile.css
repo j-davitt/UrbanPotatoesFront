@@ -1,0 +1,51 @@
+#list-group-tabs-example{
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+.card{
+display: flex;
+justify-content: center;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+background-color: black;
+color: aliceblue;
+}
+
+.list-group{
+display: flex;
+justify-content: center;
+margin: auto;
+padding: 0;
+margin-left: 25px;
+/* background-color:black */
+}
+
+/* .tab-content {
+  display: flex;
+  flex-direction: row;
+} */
+
+.movie-list-pane {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profile-page-div {
+  height: 800px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.profile-list {
+  background-color: black;
+  color: red;
+  border-radius: 10px;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+.navbar-brand{
+  margin-left: 15px;
+}
+
+.navbarheader{
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  height: 3rem;
+  top: 0;
+  width: 90%;
+  background-color: transparent;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.home-button {
+  max-height: 60px;
+}
+
+.aboutus-button {
+  max-height: 50px;
+}
+
+.profile-button{
+  max-height: 50px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  font-family: 'Mukta', sans-serif;
+}
+
+.logo {
+  max-width: 80%;
+}
+
+#profile{
+  margin-right: 30px;
+}
