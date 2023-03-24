@@ -23,14 +23,12 @@ class PopularMovies extends React.Component {
                     src={`https://image.tmdb.org/t/p/w500/${movie.poster}`}
                     alt="First slide"
                   />
-                </Link>
-                
+                </Link>    
               </Carousel.Item>
             )
           }
           )}
         </Carousel>
-
       </div>
     );
   }

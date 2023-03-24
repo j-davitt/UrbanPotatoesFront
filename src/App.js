@@ -13,18 +13,9 @@ import Home from './Home';
 import Profile from './Profile';
 import SelectedMovie from './SelectedMovie';
 import axios from 'axios';
-
-// import Login from './Login';
-// import Logout from './Logout';
-// import Profileauth from './Profileauth';
 import { withAuth0 } from "@auth0/auth0-react";
 import {createComment } from './api.js'
-
 import SearchResults from './SearchResults';
-
-
-
-
 
 
 class App extends React.Component {
@@ -48,9 +39,6 @@ class App extends React.Component {
     };
 
   
-
-
-
   updateComments = async (comment) => {
     console.log(comment);
     let newMovieObject ={...this.state.movieDataFromDB};
@@ -78,8 +66,7 @@ class App extends React.Component {
     })
   }
 
-  handleProfile = () => {
-    
+  handleProfile = () => {  
     this.postUser();
   }
 

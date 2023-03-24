@@ -12,6 +12,7 @@ Some of my personal contributions include:
 - Created the search results component.
 - Created the profile component.
 - Created the selected movie component.
+- Created functionality to add movies to user lists.
 - Utilized state to display the user movie lists in the profile with data from the database.
 - Participated in daily pair programming sessions.
 

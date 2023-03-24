@@ -20,12 +20,6 @@ class SelectedMovie extends React.Component {
             <Card.Text>
               {this.props.movieDataFromDB.description}
             </Card.Text>
-
-            {/* <Comments 
-            movieDataFromDB={this.props.movieDataFromDB}
-            sendUpdateComments={this.props.sendUpdateComments}
-            /> */}
-
           </Card.Body>
         </Card>
         <Comments 

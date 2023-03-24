@@ -7,11 +7,9 @@ import Logout from './Logout';
 import Profileauth from './Profileauth';
 
 
-
 class Header extends React.Component {
 
   render() {
-
     return (
       <>
         <Navbar collapseOnSelect className="navbarheader"expand="lg">
